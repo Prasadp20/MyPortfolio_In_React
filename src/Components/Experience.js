@@ -1,139 +1,45 @@
-import React from "react";
+import React from 'react';
 
 const Experience = () => {
     return (
-
-        <section id="experience">
-            <p class="section__text__p1">Explore My</p>
-            <h1 class="title">Skills</h1>
-            <div class="experience-details-container">
-                <div class="about-containers">
-                    <div class="details-container">
-                        <h2 class="experience-sub-title">Programming Languages</h2>
-                        <div class="article-container">
+        <div>
+            <section id="experience">
+                <p className="section__text__p1">Explore My</p>
+                <h1 className="title">Experience</h1>
+                <div className="experience-details-container">
+                    <div className="details-container">
+                        <h2 className="experience-sub-title">Shaurya Technosoft Pvt. Ltd.</h2>
+                        <div className="article-container">
                             <article>
-                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
                                 <div>
-                                    <h3>C Language</h3>
-                                    <p>Basic</p>
-                                </div>
-                            </article>
-
-                            <article>
-                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-                                <div>
-                                    <h3>C++</h3>
-                                    <p>Basic</p>
-                                </div>
-                            </article>
-
-                            <article>
-                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-                                <div>
-                                    <h3>C# .Net</h3>
-                                    <p>Expert</p>
+                                    <h3>.NET Developer</h3>
+                                    <p className="company-description">
+                                        Company based in Pune, India. Their focus areas include Dairy, Manufacturing,
+                                        Mining, Vehicle Tracking, Agricultural, Election Management. The company
+                                        delivers products such as Desktop, Android Applications, and Web-Based Solutions.
+                                    </p>
                                 </div>
                             </article>
                         </div>
 
-                        <h2 class="experience-sub-title">API & Unit Testing</h2>
-                        <div class="article-container">
+                        <h2 className="experience-sub-title">ThinkQuotient Software Training Institute</h2>
+                        <div className="article-container">
                             <article>
-                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
                                 <div>
-                                    <h3>XUnit Framework</h3>
-                                    <p>Expert</p>
-                                </div>
-                            </article>
-                        </div>
-
-                        <h2 class="experience-sub-title">Databases</h2>
-                        <div class="article-container">
-                            <article>
-                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-                                <div>
-                                    <h3>Ms SQL Srver</h3>
-                                    <p>Expert</p>
-                                </div>
-                            </article>
-                            <article>
-                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-                                <div>
-                                    <h3>MySQL</h3>
-                                    <p>Expert</p>
-                                </div>
-                            </article>
-                            <article>
-                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-                                <div>
-                                    <h3>MongoDB</h3>
-                                    <p>Expert</p>
-                                </div>
-                            </article>
-                        </div>
-                    </div>
-
-                    <div class="details-container">
-                        <h2 class="experience-sub-title">Web Development</h2>
-                        <div class="article-container">
-
-                            <article>
-                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-                                <div>
-                                    <h3>HTML5</h3>
-                                    <p>Intermediate</p>
-                                </div>
-                            </article>
-
-                            <article>
-                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-                                <div>
-                                    <h3>CSS3</h3>
-                                    <p>Basic</p>
-                                </div>
-                            </article>
-
-                            <article>
-                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-                                <div>
-                                    <h3>Bootstrap</h3>
-                                    <p>Intermediate</p>
-                                </div>
-                            </article>
-
-                            <article>
-                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-                                <div>
-                                    <h3>Javascript</h3>
-                                    <p>Intermediate</p>
-                                </div>
-                            </article>
-                            <article>
-                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-                                <div>
-                                    <h3>ReactJs</h3>
-                                    <p>Expert</p>
-                                </div>
-                            </article>
-
-                        </div>
-                        <h2 class="experience-sub-title">Version Control</h2>
-                        <div class="article-container">
-
-                            <article>
-                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-                                <div>
-                                    <h3>GitHub</h3>
-                                    <p>Expert</p>
+                                    <h3>.NET Intern</h3>
+                                    <p className="company-description">
+                                        THINKQUOTIENT SOFTWARE PRIVATE LIMITED has been engaged in research, design,
+                                        Software Development & Training & Placement of students who want to pursue their
+                                        career in IT.
+                                    </p>
                                 </div>
                             </article>
                         </div>
                     </div>
                 </div>
-            </div>
-            <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
-        </section>
+            </section>
+        </div>
     );
-}
+};
 
 export default Experience;

@@ -1,5 +1,6 @@
 import React from 'react';
 import './Home.css';
+import Footer from './Footer';
 
 function Home() {
     const handleDownloadCV = () => {
@@ -7,7 +8,7 @@ function Home() {
     };
 
     const handleContactInfo = () => {
-        window.location.href = './#contact';
+        window.location.href = '/contact';
     };
 
     const handleSocialClick = (url) => {
@@ -19,7 +20,7 @@ function Home() {
             {/* <!-- PROFILE --> */}
             <section id="profile">
                 <div className="section__pic-container">
-                    <img src="src\Components\assets\pro1.jpg" alt="John Doe profile picture" style={{ borderRadius: '100%' }}/>
+                    <img src="src\Components\assets\pro1.jpg" alt="John Doe profile picture" style={{ borderRadius: '100%' }} />
                 </div>
                 <div className="section__text">
                     <p className="section__text__p1">Hello, I'm</p>
@@ -40,6 +41,7 @@ function Home() {
                     </div>
                 </div>
             </section>
+            <Footer />
         </div>
     );
 }
