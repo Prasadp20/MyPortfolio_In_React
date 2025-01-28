@@ -1,5 +1,10 @@
-import React from 'react'
+import React from 'react';
+import Footer from './Footer';
 import './Contact.css';
+
+// Import the images
+import emailIcon from './assets/email.png';
+import linkedinIcon from './assets/linkedin.png';
 
 const Contact = () => {
     return (
@@ -9,18 +14,19 @@ const Contact = () => {
                 <h1 className="title">Contact Me</h1>
                 <div className="contact-info-upper-container">
                     <div className="contact-info-container">
-                        <img src="./assets/email.png" alt="Email icon" className="icon contact-icon email-icon" />
-                        <p><a href="prasad.pathak5555@gmail.com">prasad.pathak5555@gmail.com</a></p>
-
+                        <img src={emailIcon} alt="Email icon" className="icon contact-icon email-icon" />
+                        <p><a href="mailto:prasad.pathak5555@gmail.com">prasad.pathak5555@gmail.com</a></p>
                     </div>
                     <div className="contact-info-container">
-                        <img src="./assets/linkedin.png" alt="LinkedIn icon" className="icon contact-icon" />
+                        <img src={linkedinIcon} alt="LinkedIn icon" className="icon contact-icon" />
                         <p><a href="https://www.linkedin.com">LinkedIn</a></p>
                     </div>
                 </div>
             </section>
+
+            <Footer/>
         </div>
-    )
+    );
 }
 
-export default Contact
+export default Contact;

@@ -2,6 +2,12 @@ import React from 'react';
 import './Home.css';
 import Footer from './Footer';
 
+
+// Import the images
+import profileImg from "./assets/pro1.jpg";
+import linkedin from "./assets/linkedin.png";
+import github from "./assets/github.png";
+
 function Home() {
     const handleDownloadCV = () => {
         window.open('./assets/Prasad_Pathak_Resume.pdf');
@@ -20,7 +26,7 @@ function Home() {
             {/* <!-- PROFILE --> */}
             <section id="profile">
                 <div className="section__pic-container">
-                    <img src="src\Components\assets\pro1.jpg" alt="John Doe profile picture" style={{ borderRadius: '100%' }} />
+                    <img src={profileImg} alt="John Doe profile picture" style={{ borderRadius: '100%' }} />
                 </div>
                 <div className="section__text">
                     <p className="section__text__p1">Hello, I'm</p>
@@ -35,8 +41,8 @@ function Home() {
                         </button>
                     </div>
                     <div id="socials-container">
-                        <img src="./assets/linkedin.png" alt="My LinkedIn profile" className="icon" onClick={() => handleSocialClick('https://www.linkedin.com/in/pathak-prasad-p20')} />
-                        <img src="./assets/github.png" alt="My Github profile" className="icon" onClick={() => handleSocialClick('https://github.com/Prasadp20')}
+                        <img src={linkedin} alt="My LinkedIn profile" className="icon" onClick={() => handleSocialClick('https://www.linkedin.com/in/pathak-prasad-p20')} />
+                        <img src={github} alt="My Github profile" className="icon" onClick={() => handleSocialClick('https://github.com/Prasadp20')}
                         />
                     </div>
                 </div>
