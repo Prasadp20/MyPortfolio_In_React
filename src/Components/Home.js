@@ -10,7 +10,7 @@ import github from "./assets/github.png";
 
 function Home() {
     const handleDownloadCV = () => {
-        window.open('./assets/Prasad_Pathak_Resume.pdf');
+        window.open('src\Components\assets\Prasad_Pathak_Resume.pdf');
     };
 
     const handleContactInfo = () => {
@@ -26,7 +26,7 @@ function Home() {
             {/* <!-- PROFILE --> */}
             <section id="profile">
                 <div className="section__pic-container">
-                    <img src={profileImg} alt="John Doe profile picture" style={{ borderRadius: '100%' }} />
+                    <img src={profileImg} alt="profile picture" style={{ borderRadius: '100%' }} />
                 </div>
                 <div className="section__text">
                     <p className="section__text__p1">Hello, I'm</p>
