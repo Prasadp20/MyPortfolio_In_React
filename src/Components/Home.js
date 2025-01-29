@@ -9,8 +9,9 @@ import linkedin from "./assets/linkedin.png";
 import github from "./assets/github.png";
 
 function Home() {
+    
     const handleDownloadCV = () => {
-        window.open('src\Components\assets\Prasad_Pathak_Resume.pdf');
+        window.open('./assets/Prasad_Pathak_Resume.pdf');
     };
 
     const handleContactInfo = () => {
@@ -22,7 +23,7 @@ function Home() {
     };
 
     return (
-        <div className="container">
+        <div className="home_container">
             {/* <!-- PROFILE --> */}
             <section id="profile">
                 <div className="section__pic-container">

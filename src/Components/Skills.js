@@ -19,7 +19,7 @@ const Skills = () => {
                                 <article>
                                     <img src={checkmark} alt="Experience icon" class="icon" />
                                     <div>
-                                        <h6>C</h6>
+                                        <h5>C</h5>
                                         <p>Basic</p>
                                     </div>
                                 </article>
@@ -27,7 +27,7 @@ const Skills = () => {
                                 <article>
                                     <img src={checkmark} alt="Experience icon" class="icon" />
                                     <div>
-                                        <h6>C++</h6>
+                                        <h5>C++</h5>
                                         <p>Basic</p>
                                     </div>
                                 </article>
@@ -35,7 +35,7 @@ const Skills = () => {
                                 <article>
                                     <img src={checkmark} alt="Experience icon" class="icon" />
                                     <div>
-                                        <h6>C# .Net</h6>
+                                        <h5>C# .Net</h5>
                                         <p>Expert</p>
                                     </div>
                                 </article>
@@ -46,7 +46,7 @@ const Skills = () => {
                                 <article>
                                     <img src={checkmark} alt="Experience icon" class="icon" />
                                     <div>
-                                        <h6>XUnit Framework</h6>
+                                        <h5>XUnit Framework</h5>
                                         <p>Expert</p>
                                     </div>
                                 </article>
@@ -57,21 +57,21 @@ const Skills = () => {
                                 <article>
                                     <img src={checkmark} alt="Experience icon" class="icon" />
                                     <div>
-                                        <h6>MS SQL Srver</h6>
+                                        <h5>MS SQL Srver</h5>
                                         <p>Expert</p>
                                     </div>
                                 </article>
                                 <article>
                                     <img src={checkmark} alt="Experience icon" class="icon" />
                                     <div>
-                                        <h6>MySQL</h6>
+                                        <h5>MySQL</h5>
                                         <p>Expert</p>
                                     </div>
                                 </article>
                                 <article>
                                     <img src={checkmark} alt="Experience icon" class="icon" />
                                     <div>
-                                        <h6>MongoDB</h6>
+                                        <h5>MongoDB</h5>
                                         <p>Expert</p>
                                     </div>
                                 </article>
@@ -85,7 +85,7 @@ const Skills = () => {
                                 <article>
                                     <img src={checkmark} alt="Experience icon" class="icon" />
                                     <div>
-                                        <h6>HTML5</h6>
+                                        <h5>HTML5</h5>
                                         <p>Intermediate</p>
                                     </div>
                                 </article>
@@ -93,7 +93,7 @@ const Skills = () => {
                                 <article>
                                     <img src={checkmark} alt="Experience icon" class="icon" />
                                     <div>
-                                        <h6>CSS3</h6>
+                                        <h5>CSS3</h5>
                                         <p>Basic</p>
                                     </div>
                                 </article>
@@ -101,7 +101,7 @@ const Skills = () => {
                                 <article>
                                     <img src={checkmark} alt="Experience icon" class="icon" />
                                     <div>
-                                        <h6>Bootstrap</h6>
+                                        <h5>Bootstrap</h5>
                                         <p>Intermediate</p>
                                     </div>
                                 </article>
@@ -109,14 +109,14 @@ const Skills = () => {
                                 <article>
                                     <img src={checkmark} alt="Experience icon" class="icon" />
                                     <div>
-                                        <h6>Javascript</h6>
+                                        <h5>Javascript</h5>
                                         <p>Intermediate</p>
                                     </div>
                                 </article>
                                 <article>
                                     <img src={checkmark} alt="Experience icon" class="icon" />
                                     <div>
-                                        <h6>ReactJs</h6>
+                                        <h5>ReactJs</h5>
                                         <p>Expert</p>
                                     </div>
                                 </article>
@@ -128,7 +128,7 @@ const Skills = () => {
                                 <article>
                                     <img src={checkmark} alt="Experience icon" class="icon" />
                                     <div>
-                                        <h6>GitHub</h6>
+                                        <h5>GitHub</h5>
                                         <p>Expert</p>
                                     </div>
                                 </article>
