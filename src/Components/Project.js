@@ -20,7 +20,7 @@ const Project = () => {
                             <div class="article-container">
                                 <img src={project1} alt="Project 1" class="project-img" />
                             </div>
-                            <h5 class="experience-sub-title project-title">Student Learning Management System</h5>
+                            <h6 class="experience-sub-title project-title">Student Learning Management System</h6>
                             <div class="btn-container my-2">
                                 <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
                                     Github
@@ -40,7 +40,7 @@ const Project = () => {
                             <div class="article-container">
                                 <img src={project2} alt="Project 2" class="project-img" />
                             </div>
-                            <h5 class="experience-sub-title project-title">Scarcity Management System</h5>
+                            <h6 class="experience-sub-title project-title">Scarcity Management System</h6>
                             <div class="btn-container my-2">
                                 <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
                                     Github
@@ -51,7 +51,7 @@ const Project = () => {
                             </div>
                             <p>
                                 Contributed to the approval workflow for applications at various officer levels. Designed and
-                                implemented modules for vehicle owner and driver registration, vehicle alerts management,and the
+                                implemented modules for vehicle owner and driver registration, vehicle alerts management and the
                                 fleet management dashboard
                             </p>
                         </div>
@@ -60,7 +60,7 @@ const Project = () => {
                             <div class="article-container">
                                 <img src={project3} alt="Project 3" class="project-img" />
                             </div>
-                            <h5 class="experience-sub-title project-title">Fleet Express</h5>
+                            <h6 class="experience-sub-title project-title">Fleet Express</h6>
                             <div class="btn-container my-2">
                                 <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
                                     Github
