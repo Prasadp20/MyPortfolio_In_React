@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Host_React_App_Demo/static/css/main.899c7bb3.css",
-    "main.js": "/Host_React_App_Demo/static/js/main.5ba6c676.js",
+    "main.js": "/Host_React_App_Demo/static/js/main.fd8495af.js",
     "static/js/488.9561f9b8.chunk.js": "/Host_React_App_Demo/static/js/488.9561f9b8.chunk.js",
     "static/media/about-pic.png": "/Host_React_App_Demo/static/media/about-pic.2ba38279e9f4a6bda3c0.png",
     "static/media/project-3.png": "/Host_React_App_Demo/static/media/project-3.185a3e37840b04dc4891.png",
@@ -14,11 +14,11 @@
     "index.html": "/Host_React_App_Demo/index.html",
     "static/media/phone-solid.svg": "/Host_React_App_Demo/static/media/phone-solid.6af58fcfbefc052e1863720948c46684.svg",
     "main.899c7bb3.css.map": "/Host_React_App_Demo/static/css/main.899c7bb3.css.map",
-    "main.5ba6c676.js.map": "/Host_React_App_Demo/static/js/main.5ba6c676.js.map",
+    "main.fd8495af.js.map": "/Host_React_App_Demo/static/js/main.fd8495af.js.map",
     "488.9561f9b8.chunk.js.map": "/Host_React_App_Demo/static/js/488.9561f9b8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.899c7bb3.css",
-    "static/js/main.5ba6c676.js"
+    "static/js/main.fd8495af.js"
   ]
 }
