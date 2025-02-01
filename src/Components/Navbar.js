@@ -35,7 +35,7 @@ const Navbar = () => {
             </nav> */}
 
             <nav id="home">
-                <Link class="logo" to="/">Prasad</Link>
+                <div class='logo'>Prasad</div>
                 <div>
                     <ul class="nav-links">
                         <li class="nav-item">
