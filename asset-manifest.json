@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Host_React_App_Demo/static/css/main.e79213b5.css",
-    "main.js": "/Host_React_App_Demo/static/js/main.94ab7151.js",
+    "main.js": "/Host_React_App_Demo/static/js/main.04f00858.js",
     "static/js/488.9561f9b8.chunk.js": "/Host_React_App_Demo/static/js/488.9561f9b8.chunk.js",
     "static/media/about-pic.png": "/Host_React_App_Demo/static/media/about-pic.2ba38279e9f4a6bda3c0.png",
     "static/media/project-3.png": "/Host_React_App_Demo/static/media/project-3.185a3e37840b04dc4891.png",
@@ -9,17 +9,29 @@
     "static/media/project-1.png": "/Host_React_App_Demo/static/media/project-1.c089e59c381b4127575b.png",
     "static/media/pro1.jpg": "/Host_React_App_Demo/static/media/pro1.cec5c4067a30d8d94994.jpg",
     "static/media/Prasad_Pathak_Resume.pdf": "/Host_React_App_Demo/static/media/Prasad_Pathak_Resume.25eee4ed197496a4cc9d.pdf",
-    "static/media/email.png": "/Host_React_App_Demo/static/media/email.761df3bc69bdc631bd2f.png",
-    "static/media/checkmark.png": "/Host_React_App_Demo/static/media/checkmark.86728d9a224a2c7c95d4.png",
+    "static/media/github_2.png": "/Host_React_App_Demo/static/media/github_2.5473495a808be144c041.png",
+    "static/media/darkness.png": "/Host_React_App_Demo/static/media/darkness.3bea3d398a25611d421b.png",
+    "static/media/github_1.png": "/Host_React_App_Demo/static/media/github_1.f11021803f68852df283.png",
+    "static/media/education_2.png": "/Host_React_App_Demo/static/media/education_2.0450b4a334a2556d7a27.png",
+    "static/media/linkedin1.png": "/Host_React_App_Demo/static/media/linkedin1.2e8dd21ce5aad1c97dc7.png",
+    "static/media/brightness.png": "/Host_React_App_Demo/static/media/brightness.2420d5a2b4230e46b39b.png",
+    "static/media/phone_2.png": "/Host_React_App_Demo/static/media/phone_2.32ee992d47fceb328523.png",
+    "static/media/feedback_2.png": "/Host_React_App_Demo/static/media/feedback_2.0fd7ef3d34a30faca1ad.png",
+    "static/media/verify_2.png": "/Host_React_App_Demo/static/media/verify_2.f179744bca9c22a75b5f.png",
+    "static/media/education_1.png": "/Host_React_App_Demo/static/media/education_1.203466604ea269e26d58.png",
     "static/media/linkedin.png": "/Host_React_App_Demo/static/media/linkedin.032cf8a63be2f0f4d425.png",
+    "static/media/feedback_1.png": "/Host_React_App_Demo/static/media/feedback_1.8afcdfcba00cb2d60426.png",
+    "static/media/verify_1.png": "/Host_React_App_Demo/static/media/verify_1.1142fd488a1de449301a.png",
+    "static/media/email_2.png": "/Host_React_App_Demo/static/media/email_2.21164dd8097ddffd4d6c.png",
+    "static/media/email_1.png": "/Host_React_App_Demo/static/media/email_1.51b08bcbb5af7a861c31.png",
+    "static/media/phone_1.png": "/Host_React_App_Demo/static/media/phone_1.a04192ae6599afe3e15a.png",
     "index.html": "/Host_React_App_Demo/index.html",
-    "static/media/phone-solid.svg": "/Host_React_App_Demo/static/media/phone-solid.6af58fcfbefc052e1863720948c46684.svg",
     "main.e79213b5.css.map": "/Host_React_App_Demo/static/css/main.e79213b5.css.map",
-    "main.94ab7151.js.map": "/Host_React_App_Demo/static/js/main.94ab7151.js.map",
+    "main.04f00858.js.map": "/Host_React_App_Demo/static/js/main.04f00858.js.map",
     "488.9561f9b8.chunk.js.map": "/Host_React_App_Demo/static/js/488.9561f9b8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e79213b5.css",
-    "static/js/main.94ab7151.js"
+    "static/js/main.04f00858.js"
   ]
 }
