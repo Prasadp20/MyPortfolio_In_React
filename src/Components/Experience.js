@@ -1,36 +1,34 @@
 import React from "react";
-import Footer from "./Footer";
 import "./Experience.css";
 
 // Import the images
 import checkmark from "./assets/checkmark.png";
 
-const Experience = () => {
+const Experience = (props) => {
+
+    const Color = props.mode === "light" ? "black" : "white";
+    const bgColor = props.mode === "light" ? "white" : "black";
+
     return (
         <div>
             <section id="experience">
-                <p className="section__text__p1">Get in Touch</p>
-                <h1 className="title">Experience</h1>
-                <div className="experience-info-upper-container">
+                <p className="section__text__p1" style={{color: Color}}>Get in Touch</p>
+                <h1 className="title" style={{color: Color}}>Experience</h1>
+                <div className="experience-info-upper-container" style={{ backgroundColor: bgColor }}>
                     {/* Experience 1 */}
                     <div className="experience-info-container">
                         <div className="experience-header">
-                            <h2 className="experience-sub-title">
-                                Shaurya Technosoft Pvt. Ltd.
-                            </h2>
-                            <h3 className="experience-location">Pune, India</h3>
+                            <h2 className="experience-sub-title" style={{color: Color}}>Shaurya Technosoft Pvt. Ltd.</h2>
+                            <h3 className="experience-location" style={{color: Color}}>Pune, India</h3>
                         </div>
                         <div className="experience-role">
-                            <h4>
-                                <img src={checkmark} alt="Experience icon" className="icon" />{" "}
-                                .NET Developer
+                            <h4 style={{color: Color}}>
+                                <img src={checkmark} alt="Experience icon" className="icon" style={{color: Color}}/>{" "}.NET Developer
                             </h4>
-                            <p className="experience-duration">09/2022 - Present</p>
+                            <p className="experience-duration" style={{color: Color}}>09/2022 - Present</p>
                         </div>
-                        <p>
-                            <strong>Company Description</strong>
-                        </p>
-                        <p>
+                        <p style={{color: Color}}><strong>Company Description</strong></p>
+                        <p style={{color: Color}}>
                             Company based in Pune, India. Their focus areas include Dairy,
                             Manufacturing, Mining, Vehicle Tracking, Agricultural, Election
                             Management. The company delivers products such as Desktop,
@@ -41,22 +39,22 @@ const Experience = () => {
                     {/* Experience 2 */}
                     <div className="experience-info-container">
                         <div className="experience-header">
-                            <h2 className="experience-sub-title">
+                            <h2 className="experience-sub-title" style={{color: Color}}>
                                 ThinkQuotient Software Training Institute
                             </h2>
-                            <h3 className="experience-location">Pune, India</h3>
+                            <h3 className="experience-location" style={{color: Color}}>Pune, India</h3>
                         </div>
                         <div className="experience-role">
-                            <h4>
+                            <h4 style={{color: Color}}>
                                 <img src={checkmark} alt="Experience icon" className="icon" />{" "}
                                 .NET Intern
                             </h4>
-                            <p className="experience-duration">05/2022 - 09/2022</p>
+                            <p className="experience-duration" style={{color: Color}}>05/2022 - 09/2022</p>
                         </div>
-                        <p>
+                        <p style={{color: Color}}>
                             <strong>Company Description</strong>
                         </p>
-                        <p>
+                        <p style={{color: Color}}>
                             THINKQUOTIENT SOFTWARE PRIVATE LIMITED has been engaged in
                             research, design, Software Development & Training & Placement of
                             students who want to pursue their career in IT.
@@ -64,8 +62,6 @@ const Experience = () => {
                     </div>
                 </div>
             </section>
-
-            <Footer />
         </div>
     );
 };

@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import "./Home.css";
-import Footer from "./Footer";
 
 // Import images
 import profileImg from "./assets/pro1.jpg";
@@ -9,8 +8,11 @@ import linkedin from "./assets/linkedin.png";
 import github from "./assets/github.png";
 import resume from "./assets/Prasad_Pathak_Resume.pdf";
 
-function Home() {
+function Home(props) {
     const navigate = useNavigate(); // Hook for navigation
+
+    const Color = props.mode === "light" ? "black" : "white";
+    const bgColor = props.mode === "light" ? "black" : "white";
 
     const skillsArray = [".NET", "C Lang", "C++", "QT", "ReactJs"];
     const [skillIndex, setSkillIndex] = useState(0);
@@ -48,14 +50,17 @@ function Home() {
                     <img src={profileImg} alt="profile picture" style={{ borderRadius: "100%" }} />
                 </div>
                 <div className="section__text">
-                    <p className="section__text__p1">Hello, I'm</p>
-                    <h1 className="title">Prasad Pathak</h1>
-                    <p className="section__text__p2">{currentSkill} Developer</p>
+                    <p className="section__text__p1" style={{ color: Color }}>Hello, I'm</p>
+                    <h1 className="title" style={{ color: Color }}>Prasad Pathak</h1>
+                    <p className="section__text__p2" style={{ color: Color }}>{currentSkill} Developer</p>
                     <div className="btn-container">
-                        <button className="btn btn-color-2" onClick={handleDownloadCV}>
+                        <button className="btn btn-color-2" onClick={handleDownloadCV} style={{ color: Color }}>
                             Download CV
                         </button>
-                        <button className="btn btn-color-1" onClick={handleContactInfo}>Contact Info</button>
+                        <button className="btn btn-color-1" onClick={handleContactInfo}
+                            >
+                            Contact Info
+                        </button>
                     </div>
                     <div id="socials-container">
                         <img src={linkedin} alt="My LinkedIn profile" className="icon" onClick={() => handleSocialClick("https://www.linkedin.com/in/pathak-prasad-p20")} />
@@ -63,7 +68,6 @@ function Home() {
                     </div>
                 </div>
             </section>
-            <Footer />
         </div>
     );
 }
