@@ -1,24 +1,25 @@
 {
   "files": {
     "main.css": "/Host_React_App_Demo/static/css/main.899c7bb3.css",
-    "main.js": "/Host_React_App_Demo/static/js/main.fd8495af.js",
+    "main.js": "/Host_React_App_Demo/static/js/main.5785c12b.js",
     "static/js/488.9561f9b8.chunk.js": "/Host_React_App_Demo/static/js/488.9561f9b8.chunk.js",
     "static/media/about-pic.png": "/Host_React_App_Demo/static/media/about-pic.2ba38279e9f4a6bda3c0.png",
     "static/media/project-3.png": "/Host_React_App_Demo/static/media/project-3.185a3e37840b04dc4891.png",
     "static/media/project-2.png": "/Host_React_App_Demo/static/media/project-2.6484c4f01ba2b5a53c1c.png",
     "static/media/project-1.png": "/Host_React_App_Demo/static/media/project-1.c089e59c381b4127575b.png",
     "static/media/pro1.jpg": "/Host_React_App_Demo/static/media/pro1.cec5c4067a30d8d94994.jpg",
+    "static/media/Prasad_Pathak_Resume.pdf": "/Host_React_App_Demo/static/media/Prasad_Pathak_Resume.25eee4ed197496a4cc9d.pdf",
     "static/media/email.png": "/Host_React_App_Demo/static/media/email.761df3bc69bdc631bd2f.png",
     "static/media/checkmark.png": "/Host_React_App_Demo/static/media/checkmark.86728d9a224a2c7c95d4.png",
     "static/media/linkedin.png": "/Host_React_App_Demo/static/media/linkedin.032cf8a63be2f0f4d425.png",
     "index.html": "/Host_React_App_Demo/index.html",
     "static/media/phone-solid.svg": "/Host_React_App_Demo/static/media/phone-solid.6af58fcfbefc052e1863720948c46684.svg",
     "main.899c7bb3.css.map": "/Host_React_App_Demo/static/css/main.899c7bb3.css.map",
-    "main.fd8495af.js.map": "/Host_React_App_Demo/static/js/main.fd8495af.js.map",
+    "main.5785c12b.js.map": "/Host_React_App_Demo/static/js/main.5785c12b.js.map",
     "488.9561f9b8.chunk.js.map": "/Host_React_App_Demo/static/js/488.9561f9b8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.899c7bb3.css",
-    "static/js/main.fd8495af.js"
+    "static/js/main.5785c12b.js"
   ]
 }
