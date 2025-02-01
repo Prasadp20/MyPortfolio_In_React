@@ -2,14 +2,26 @@ import React from 'react';
 import './Contact.css';
 
 // Import the images
-import emailIcon from './assets/email.png';
-import linkedinIcon from './assets/linkedin.png';
-import githubIcon from './assets/github.png';
-import phoneIcon from './assets/phone-solid.svg';
+import emailLightIcon from "./assets/email_2.png"; // 🌙 Icon for dark mode
+import emailDarkIcon from "./assets/email_1.png"; // ☀️ Icon for light mode
+
+import linkedinLightIcon from "./assets/linkedin1.png"; // 🌙 Icon for dark mode
+import linkedinDarkIcon from "./assets/linkedin.png"; // ☀️ Icon for light mode
+
+import githubLightIcon from "./assets/github_2.png"; // 🌙 Icon for dark mode
+import githubDarkIcon from "./assets/github_1.png"; // ☀️ Icon for light mode
+
+import phoneLightIcon from "./assets/phone_2.png"; // 🌙 Icon for dark mode
+import phoneDarkIcon from "./assets/phone_1.png"; // ☀️ Icon for light mode
 
 const Contact = (props) => {
 
     const Color = props.mode === "light" ? "black" : "white";
+    const emailIcon = props.mode === "dark" ? emailLightIcon : emailDarkIcon;
+    const linkedinThemeIcon = props.mode === "dark" ? linkedinLightIcon : linkedinDarkIcon;
+    const githubThemeIcon = props.mode === "dark" ? githubLightIcon : githubDarkIcon;
+    const phoneThemeIcon = props.mode === "dark" ? phoneLightIcon : phoneDarkIcon;
+
     return (
         <div>
             <section id="contact">
@@ -23,17 +35,17 @@ const Contact = (props) => {
                     </div>
 
                     <div className="contact-info-container">
-                        <img src={linkedinIcon} alt="LinkedIn icon" className="icon contact-icon" />
+                        <img src={linkedinThemeIcon} alt="LinkedIn icon" className="icon contact-icon" />
                         <p><a href="https://www.linkedin.com/in/pathak-prasad-p20" style={{color: Color}}>LinkedIn</a></p>
                     </div>
 
                     <div className="contact-info-container">
-                        <img src={githubIcon} alt="GitHub icon" className="icon contact-icon" />
+                        <img src={githubThemeIcon} alt="GitHub icon" className="icon contact-icon" />
                         <p><a href="https://github.com/Prasadp20" target="_blank" rel="noopener noreferrer" style={{color: Color}}>GitHub</a></p>
                     </div>
 
                     <div className="contact-info-container">
-                        <img src={phoneIcon} alt="Phone icon" className="icon contact-icon" />
+                        <img src={phoneThemeIcon} alt="Phone icon" className="icon contact-icon" />
                         <p><a href="tel:+919765686016" style={{color: Color}}>+91 9765686016</a></p>
                     </div>
 

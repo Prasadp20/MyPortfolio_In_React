@@ -2,12 +2,16 @@ import React from "react";
 import './Skills.css';
 
 // Import the images
-import checkmark from "./assets/checkmark.png";
+import checkmarkLightIcon from "./assets/verify_2.png"; // 🌙 Icon for dark mode
+import checkmarkDarkIcon from "./assets/verify_1.png"; // ☀️ Icon for light mode
+
 
 const Skills = (props) => {
 
     const Color = props.mode === "light" ? "black" : "white";
     const bgColor = props.mode === "light" ? "white" : "black";
+
+    const checkmarkIcon = props.mode === "dark" ? checkmarkLightIcon : checkmarkDarkIcon;
 
     return (
         <>
@@ -20,7 +24,7 @@ const Skills = (props) => {
                             <h2 class="experience-sub-title" style={{color: Color}}>Programming Languages</h2>
                             <div class="article-container">
                                 <article>
-                                    <img src={checkmark} alt="Experience icon" class="icon" />
+                                    <img src={checkmarkIcon} alt="Experience icon" class="icon" />
                                     <div>
                                         <h5 style={{color: Color}}>C</h5>
                                         <p style={{color: Color}}>Basic</p>
@@ -28,7 +32,7 @@ const Skills = (props) => {
                                 </article>
 
                                 <article>
-                                    <img src={checkmark} alt="Experience icon" class="icon" />
+                                    <img src={checkmarkIcon} alt="Experience icon" class="icon" />
                                     <div>
                                         <h5 style={{color: Color}}>C++</h5>
                                         <p style={{color: Color}}>Basic</p>
@@ -36,7 +40,7 @@ const Skills = (props) => {
                                 </article>
 
                                 <article>
-                                    <img src={checkmark} alt="Experience icon" class="icon" />
+                                    <img src={checkmarkIcon} alt="Experience icon" class="icon" />
                                     <div>
                                         <h5 style={{color: Color}}>C# .Net</h5>
                                         <p style={{color: Color}}>Expert</p>
@@ -47,7 +51,7 @@ const Skills = (props) => {
                             <h2 class="experience-sub-title" style={{color: Color}}>API & Unit Testing</h2>
                             <div class="article-container">
                                 <article>
-                                    <img src={checkmark} alt="Experience icon" class="icon" />
+                                    <img src={checkmarkIcon} alt="Experience icon" class="icon" />
                                     <div>
                                         <h5 style={{color: Color}}>XUnit Framework</h5>
                                         <p style={{color: Color}}>Expert</p>
@@ -58,21 +62,21 @@ const Skills = (props) => {
                             <h2 class="experience-sub-title" style={{color: Color}}>Databases</h2>
                             <div class="article-container">
                                 <article>
-                                    <img src={checkmark} alt="Experience icon" class="icon" />
+                                    <img src={checkmarkIcon} alt="Experience icon" class="icon" />
                                     <div>
                                         <h5 style={{color: Color}}>MS SQL Srver</h5>
                                         <p style={{color: Color}}>Expert</p>
                                     </div>
                                 </article>
                                 <article>
-                                    <img src={checkmark} alt="Experience icon" class="icon" />
+                                    <img src={checkmarkIcon} alt="Experience icon" class="icon" />
                                     <div>
                                         <h5 style={{color: Color}}>MySQL</h5>
                                         <p style={{color: Color}}>Expert</p>
                                     </div>
                                 </article>
                                 <article>
-                                    <img src={checkmark} alt="Experience icon" class="icon" />
+                                    <img src={checkmarkIcon} alt="Experience icon" class="icon" />
                                     <div>
                                         <h5 style={{color: Color}}>MongoDB</h5>
                                         <p style={{color: Color}}>Expert</p>
@@ -86,7 +90,7 @@ const Skills = (props) => {
                             <div class="article-container">
 
                                 <article>
-                                    <img src={checkmark} alt="Experience icon" class="icon" />
+                                    <img src={checkmarkIcon} alt="Experience icon" class="icon" />
                                     <div>
                                         <h5 style={{color: Color}}>HTML5</h5>
                                         <p style={{color: Color}}>Intermediate</p>
@@ -94,7 +98,7 @@ const Skills = (props) => {
                                 </article>
 
                                 <article>
-                                    <img src={checkmark} alt="Experience icon" class="icon" />
+                                    <img src={checkmarkIcon} alt="Experience icon" class="icon" />
                                     <div>
                                         <h5 style={{color: Color}}>CSS3</h5>
                                         <p style={{color: Color}}>Basic</p>
@@ -102,7 +106,7 @@ const Skills = (props) => {
                                 </article>
 
                                 <article>
-                                    <img src={checkmark} alt="Experience icon" class="icon" />
+                                    <img src={checkmarkIcon} alt="Experience icon" class="icon" />
                                     <div>
                                         <h5 style={{color: Color}}>Bootstrap</h5>
                                         <p style={{color: Color}}>Intermediate</p>
@@ -110,14 +114,14 @@ const Skills = (props) => {
                                 </article>
 
                                 <article>
-                                    <img src={checkmark} alt="Experience icon" class="icon" />
+                                    <img src={checkmarkIcon} alt="Experience icon" class="icon" />
                                     <div>
                                         <h5 style={{color: Color}}>Javascript</h5>
                                         <p style={{color: Color}}>Intermediate</p>
                                     </div>
                                 </article>
                                 <article>
-                                    <img src={checkmark} alt="Experience icon" class="icon" />
+                                    <img src={checkmarkIcon} alt="Experience icon" class="icon" />
                                     <div>
                                         <h5 style={{color: Color}}>ReactJs</h5>
                                         <p style={{color: Color}}>Expert</p>
@@ -128,7 +132,7 @@ const Skills = (props) => {
                             <h2 class="experience-sub-title" style={{color: Color}}>Version Control</h2>
                             <div class="article-container">
                                 <article>
-                                    <img src={checkmark} alt="Experience icon" class="icon" />
+                                    <img src={checkmarkIcon} alt="Experience icon" class="icon" />
                                     <div>
                                         <h5 style={{color: Color}}>GitHub</h5>
                                         <p style={{color: Color}}>Expert</p>

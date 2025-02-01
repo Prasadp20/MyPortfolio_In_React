@@ -2,12 +2,14 @@ import React from "react";
 import "./Experience.css";
 
 // Import the images
-import checkmark from "./assets/checkmark.png";
+import expLightIcon from "./assets/feedback_2.png"; // 🌙 Icon for dark mode
+import expDarkIcon from "./assets/feedback_1.png"; // ☀️ Icon for light mode
 
 const Experience = (props) => {
 
     const Color = props.mode === "light" ? "black" : "white";
     const bgColor = props.mode === "light" ? "white" : "black";
+    const expIcon = props.mode === "dark" ? expLightIcon : expDarkIcon;
 
     return (
         <div>
@@ -23,7 +25,7 @@ const Experience = (props) => {
                         </div>
                         <div className="experience-role">
                             <h4 style={{color: Color}}>
-                                <img src={checkmark} alt="Experience icon" className="icon" style={{color: Color}}/>{" "}.NET Developer
+                                <img src={expIcon} alt="Experience icon" className="icon" style={{color: Color}}/>{" "}.NET Developer
                             </h4>
                             <p className="experience-duration" style={{color: Color}}>09/2022 - Present</p>
                         </div>
@@ -46,7 +48,7 @@ const Experience = (props) => {
                         </div>
                         <div className="experience-role">
                             <h4 style={{color: Color}}>
-                                <img src={checkmark} alt="Experience icon" className="icon" />{" "}
+                                <img src={expIcon} alt="Experience icon" className="icon" />{" "}
                                 .NET Intern
                             </h4>
                             <p className="experience-duration" style={{color: Color}}>05/2022 - 09/2022</p>

@@ -4,8 +4,13 @@ import "./Home.css";
 
 // Import images
 import profileImg from "./assets/pro1.jpg";
-import linkedin from "./assets/linkedin.png";
-import github from "./assets/github.png";
+
+import linkedinLightIcon from "./assets/linkedin1.png"; // 🌙 Icon for dark mode
+import linkedinDarkIcon from "./assets/linkedin.png"; // ☀️ Icon for light mode
+
+import githubLightIcon from "./assets/github_2.png"; // 🌙 Icon for dark mode
+import githubDarkIcon from "./assets/github_1.png"; // ☀️ Icon for light mode
+
 import resume from "./assets/Prasad_Pathak_Resume.pdf";
 
 function Home(props) {
@@ -13,6 +18,8 @@ function Home(props) {
 
     const Color = props.mode === "light" ? "black" : "white";
     const bgColor = props.mode === "light" ? "black" : "white";
+    const linkedinThemeIcon = props.mode === "dark" ? linkedinLightIcon : linkedinDarkIcon;
+    const githubThemeIcon = props.mode === "dark" ? githubLightIcon : githubDarkIcon;
 
     const skillsArray = [".NET", "C Lang", "C++", "QT", "ReactJs"];
     const [skillIndex, setSkillIndex] = useState(0);
@@ -58,13 +65,13 @@ function Home(props) {
                             Download CV
                         </button>
                         <button className="btn btn-color-1" onClick={handleContactInfo}
-                            >
+                        >
                             Contact Info
                         </button>
                     </div>
                     <div id="socials-container">
-                        <img src={linkedin} alt="My LinkedIn profile" className="icon" onClick={() => handleSocialClick("https://www.linkedin.com/in/pathak-prasad-p20")} />
-                        <img src={github} alt="My Github profile" className="icon" onClick={() => handleSocialClick("https://github.com/Prasadp20")} />
+                        <img src={linkedinThemeIcon} alt="My LinkedIn profile" className="icon" onClick={() => handleSocialClick("https://www.linkedin.com/in/pathak-prasad-p20")} />
+                        <img src={githubThemeIcon} alt="My Github profile" className="icon" onClick={() => handleSocialClick("https://github.com/Prasadp20")} />
                     </div>
                 </div>
             </section>
