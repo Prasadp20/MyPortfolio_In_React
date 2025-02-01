@@ -1,21 +1,18 @@
 import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import "./Home.css";
 import Footer from "./Footer";
 
-// Import the images
+// Import images
 import profileImg from "./assets/pro1.jpg";
 import linkedin from "./assets/linkedin.png";
 import github from "./assets/github.png";
+import resume from "./assets/Prasad_Pathak_Resume.pdf";
 
 function Home() {
-    const skillsArray = [
-        ".NET",
-        "C Lang",
-        "C++",
-        "QT",
-        "ReactJs"
-    ];
-    
+    const navigate = useNavigate(); // Hook for navigation
+
+    const skillsArray = [".NET", "C Lang", "C++", "QT", "ReactJs"];
     const [skillIndex, setSkillIndex] = useState(0);
     const [currentSkill, setCurrentSkill] = useState(skillsArray[0]);
 
@@ -24,28 +21,28 @@ function Home() {
             setSkillIndex((prevIndex) => (prevIndex + 1) % skillsArray.length);
         }, 1000);
 
-        return () => clearInterval(interval); // Cleanup interval on unmount
+        return () => clearInterval(interval);
     }, []);
 
     useEffect(() => {
         setCurrentSkill(skillsArray[skillIndex]);
     }, [skillIndex]);
 
+
     const handleDownloadCV = () => {
-        window.open("./assets/Prasad_Pathak_Resume.pdf");
+        window.open(resume);
     };
 
     const handleContactInfo = () => {
-        window.location.href = "/contact";
+        navigate("/contact");
     };
 
     const handleSocialClick = (url) => {
-        window.location.href = url;
+        window.open(url, "_blank");
     };
 
     return (
         <div className="home_container">
-            {/* <!-- PROFILE --> */}
             <section id="profile">
                 <div className="section__pic-container">
                     <img src={profileImg} alt="profile picture" style={{ borderRadius: "100%" }} />
@@ -58,9 +55,7 @@ function Home() {
                         <button className="btn btn-color-2" onClick={handleDownloadCV}>
                             Download CV
                         </button>
-                        <button className="btn btn-color-1" onClick={handleContactInfo}>
-                            Contact Info
-                        </button>
+                        <button className="btn btn-color-1" onClick={handleContactInfo}>Contact Info</button>
                     </div>
                     <div id="socials-container">
                         <img src={linkedin} alt="My LinkedIn profile" className="icon" onClick={() => handleSocialClick("https://www.linkedin.com/in/pathak-prasad-p20")} />
