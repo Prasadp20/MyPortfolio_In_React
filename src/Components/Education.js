@@ -14,7 +14,7 @@ const Experience = (props) => {
     return (
         <div>
             <section id="experience">
-                <p className="section__text__p1" style={{color: Color}}>Get in Touch</p>
+                <p className="section__text__p1" style={{color: Color}}>Get To Know More</p>
                 <h1 className="title" style={{color: Color}}>Education</h1>
                 <div className="experience-info-upper-container" style={{ backgroundColor: bgColor }}>
                     {/* Experience 1 */}

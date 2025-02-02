@@ -2,12 +2,14 @@
 
 #about {
     position: relative;
+    gap: 5rem;
+    height: 64vh;
 }
 
 .about-containers {
     gap: 2rem;
     margin-bottom: 2rem;
-    margin-top: 2rem;
+    margin-top: 4rem;
 }
 
 .about-details-container {
@@ -24,12 +26,6 @@
     border-radius: 2rem;
 }
 
-.arrow {
-    position: absolute;
-    right: -5rem;
-    bottom: 2.5rem;
-}
-
 .details-container {
     padding: 1.5rem;
     flex: 1;
@@ -42,7 +38,8 @@
 
 .section-container {
     gap: 4rem;
-    height: 80%;
+    height: 60%;
+    margin-top: 4rem;
 }
 
 .section__pic-container {

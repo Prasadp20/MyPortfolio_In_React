@@ -37,3 +37,9 @@ a:hover {
 .logo:hover {
     cursor: default;
 }
+
+
+.nav-item.active .nav-link {
+    font-weight: bold;
+    border-bottom: 2px solid white; /* Customize highlight effect */
+}
