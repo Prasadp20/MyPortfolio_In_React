@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Host_React_App_Demo/static/css/main.e79213b5.css",
-    "main.js": "/Host_React_App_Demo/static/js/main.04f00858.js",
+    "main.css": "/Host_React_App_Demo/static/css/main.22f38323.css",
+    "main.js": "/Host_React_App_Demo/static/js/main.82898543.js",
     "static/js/488.9561f9b8.chunk.js": "/Host_React_App_Demo/static/js/488.9561f9b8.chunk.js",
     "static/media/about-pic.png": "/Host_React_App_Demo/static/media/about-pic.2ba38279e9f4a6bda3c0.png",
     "static/media/project-3.png": "/Host_React_App_Demo/static/media/project-3.185a3e37840b04dc4891.png",
@@ -26,12 +26,12 @@
     "static/media/email_1.png": "/Host_React_App_Demo/static/media/email_1.51b08bcbb5af7a861c31.png",
     "static/media/phone_1.png": "/Host_React_App_Demo/static/media/phone_1.a04192ae6599afe3e15a.png",
     "index.html": "/Host_React_App_Demo/index.html",
-    "main.e79213b5.css.map": "/Host_React_App_Demo/static/css/main.e79213b5.css.map",
-    "main.04f00858.js.map": "/Host_React_App_Demo/static/js/main.04f00858.js.map",
+    "main.22f38323.css.map": "/Host_React_App_Demo/static/css/main.22f38323.css.map",
+    "main.82898543.js.map": "/Host_React_App_Demo/static/js/main.82898543.js.map",
     "488.9561f9b8.chunk.js.map": "/Host_React_App_Demo/static/js/488.9561f9b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e79213b5.css",
-    "static/js/main.04f00858.js"
+    "static/css/main.22f38323.css",
+    "static/js/main.82898543.js"
   ]
 }
