@@ -9,7 +9,7 @@ const Footer = (props) => {
     return (
         <div>
             <footer>
-                <nav>
+                {/* <nav>
                     <div className="nav-links-container">
                         <ul className="nav-links">
                             <li><Link to="/" style={{color: Color}}>Home</Link></li>
@@ -21,7 +21,7 @@ const Footer = (props) => {
                             <li><Link to="/contact" style={{color: Color}}>Contact</Link></li>
                         </ul>
                     </div>
-                </nav>
+                </nav> */}
                 <p style={{ color: Color }}>Copyright &#169; 2025 <strong>Prasad Pathak</strong>. All Rights Reserved.</p>
             </footer>
         </div>

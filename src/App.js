@@ -10,6 +10,7 @@ import Education from "./Components/Education";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import { useState } from "react";
 import Footer from "./Components/Footer";
+import Alert from "./Components/Alert";
 
 
 function App() {
@@ -31,30 +32,33 @@ function App() {
 
   // function toggle between light and dark mode
   const toggleMode = () => {
-    if(mode === "light") {
+    if (mode === "light") {
       setMode("dark");
       document.body.style.backgroundColor = "black";
-    } 
+      showAlert("Dark mode has been enabled", "success");
+    }
     else {
       setMode("light");
       document.body.style.backgroundColor = "white";
+      showAlert("Light mode has been enabled", "success");
     }
   }
 
 
   return (
     <Router>
-      <Navbar mode={mode} toggleMode={toggleMode}/>
+      <Navbar mode={mode} toggleMode={toggleMode} />
+      <Alert alert={alert} />
       <Routes>
-        <Route path="/" element={<Home mode={mode} />} />
+        <Route path="/" element={<Home showAlert={showAlert} mode={mode} />} />
         <Route path="/about" element={<About mode={mode} />} />
-        <Route path="/skills" element={<Skills mode={mode}/>} />
+        <Route path="/skills" element={<Skills mode={mode} />} />
         <Route path="/experience" element={<Experience mode={mode} />} />
         <Route path="/contact" element={<Contact mode={mode} />} />
         <Route path="/project" element={<Project mode={mode} />} />
         <Route path="/education" element={<Education mode={mode} />} />
       </Routes>
-      <Footer mode={mode}/>
+      <Footer mode={mode} />
     </Router>
   );
 }

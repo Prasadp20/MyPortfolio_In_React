@@ -28,7 +28,7 @@ function Home(props) {
     useEffect(() => {
         const interval = setInterval(() => {
             setSkillIndex((prevIndex) => (prevIndex + 1) % skillsArray.length);
-        }, 1000);
+        }, 3500);
 
         return () => clearInterval(interval);
     }, []);

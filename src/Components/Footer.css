@@ -1,6 +1,6 @@
 /* FOOTER SECTION */
 
-nav,
+/* nav,
 .nav-links {
     display: flex;
 }
@@ -36,11 +36,11 @@ a:hover {
 
 .logo:hover {
     cursor: default;
-}
+} */
 
 footer {
-    height: 5vh;
-    margin-top: 5rem;
+    /* height: 3vh; */
+    margin-top: 10rem;
 }
 
 footer p {

@@ -3,12 +3,12 @@
 #about {
     position: relative;
     gap: 5rem;
-    height: 64vh;
+    height: auto;
 }
 
 .about-containers {
     gap: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
     margin-top: 4rem;
 }
 

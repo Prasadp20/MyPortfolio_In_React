@@ -1,6 +1,6 @@
 /* Education Section */
 
-#experience {
+#education {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -9,7 +9,7 @@
     padding: 2rem 0;
 }
 
-.experience-info-upper-container {
+.education-info-upper-container {
     width: 70%;
     border-radius: 2rem;
     border: rgb(163, 163, 163) 0.1rem solid;
@@ -19,34 +19,34 @@
     /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); */
 }
 
-.experience-info-container {
+.education-info-container {
     margin-bottom: 2rem;
     padding-bottom: 1.5rem;
     border-bottom: 1px solid rgb(163, 163, 163);
 }
 
-.experience-info-container:last-child {
+.education-info-container:last-child {
     border-bottom: none;
 }
 
-.experience-header {
+.education-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.experience-sub-title {
+.education-sub-title {
     font-size: 2rem;
     font-weight: bold;
     color: #333;
 }
 
-.experience-location {
+.education-location {
     font-size: 1rem;
     color: #777;
 }
 
-.experience-role {
+.education-role {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -54,7 +54,7 @@
     margin: 0.5rem 0;
 }
 
-.experience-duration {
+.education-duration {
     font-size: 1rem;
     color: #777;
 }

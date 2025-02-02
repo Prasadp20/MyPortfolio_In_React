@@ -36,7 +36,7 @@ const Contact = (props) => {
 
                     <div className="contact-info-container">
                         <img src={linkedinThemeIcon} alt="LinkedIn icon" className="icon contact-icon" />
-                        <p><a href="https://www.linkedin.com/in/pathak-prasad-p20" style={{color: Color}}>LinkedIn</a></p>
+                        <p><a href="https://www.linkedin.com/in/pathak-prasad-p20" target="_blank" rel="noopener noreferrer" style={{color: Color}}>LinkedIn</a></p>
                     </div>
 
                     <div className="contact-info-container">

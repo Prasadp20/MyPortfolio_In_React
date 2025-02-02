@@ -2,7 +2,7 @@ import React from "react";
 import "./About.css"
 
 
-import profileImg from "./assets/about-pic.png";
+import profileImg from "./assets/pro3.jpg";
 
 const About = (props) => {
 
