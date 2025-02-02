@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Prasadp20.github.io/Host_React_App_Demo",
+  "homepage": "https://prasadp20.github.io/MyPortfolio_In_React",
   "dependencies": {
     "cra-template": "1.2.0",
     "react": "^19.0.0",
