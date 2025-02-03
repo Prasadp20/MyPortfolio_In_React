@@ -7,11 +7,31 @@ import Navbar from "./Components/Navbar";
 import Project from "./Components/Project";
 import Skills from "./Components/Skills";
 import Education from "./Components/Education";
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
-import { useState } from "react";
+import { HashRouter as Router, Routes, Route, useLocation } from "react-router-dom";
+import { useState, useEffect } from "react";
 import Footer from "./Components/Footer";
 import Alert from "./Components/Alert";
 
+
+const DynamicTitle = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    const pageTitleMap = {
+      "/": "My Portfolio | Home",
+      "/about": "My Portfolio | About",
+      "/skills" : "My Portfolio | Skills",
+      "/experience" : "My Portfolio | Experience",
+      "/contact" : "My Portfolio | Contact",
+      "/project" : "My Portfolio | Project",
+      "/education" : "My Portfolio | Education"
+    };
+
+    document.title = pageTitleMap[location.pathname] || "My Portfolio";
+  }, [location]);
+
+  return null;
+};
 
 function App() {
 
@@ -49,6 +69,7 @@ function App() {
     <Router>
       <Navbar mode={mode} toggleMode={toggleMode} />
       <Alert alert={alert} />
+      <DynamicTitle />
       <Routes>
         <Route path="/" element={<Home showAlert={showAlert} mode={mode} />} />
         <Route path="/about" element={<About mode={mode} />} />
